@@ -14,16 +14,16 @@ Evaluation through three approaches:
 The Arabic Healthcare Dataset (AHD) comprises over 800,000 expert-annotated QA pairs spanning 90 categories. For this project, 3,000 rows were selected via stratified random sampling to ensure balanced representation across categories.
 
 ## Goals
-Adapt a state-of-the-art LLM for Arabic medical QA, a low-resource language domain.
-Compare the performance of zero-shot, few-shot, and fine-tuned models.
-Demonstrate the potential of fine-tuning to enhance LLM performance in domain-specific applications.
+- Adapt a state-of-the-art LLM for Arabic medical QA, a low-resource language domain.
+- Compare the performance of zero-shot, few-shot, and fine-tuned models.
+- Demonstrate the potential of fine-tuning to enhance LLM performance in domain-specific applications.
 ## Results
-Fine-Tuning consistently provided the most accurate and relevant answers.
-Few-Shot Learning added useful context but sometimes lacked focus.
-Zero-Shot Learning was concise but occasionally switched to English and struggled with complex or culturally specific questions.
+- Fine-Tuning consistently provided the most accurate and relevant answers.
+- Few-Shot Learning added useful context but sometimes lacked focus.
+- Zero-Shot Learning was concise but occasionally switched to English and struggled with complex or culturally specific questions.
 ## Future Directions
 This project sets a foundation for:
 
-Extending fine-tuning to larger datasets for improved generalization.
-Expanding evaluation to multilingual capabilities.
-Applying the model to other critical domains requiring domain-specific NLP solutions.
+- Extending fine-tuning to larger datasets for improved generalization.
+- Expanding evaluation to multilingual capabilities.
+- Applying the model to other critical domains requiring domain-specific NLP solutions.
