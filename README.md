@@ -5,11 +5,12 @@ This project focuses on adapting a Large Language Model (LLM), LLaMA 3.2-3B, for
 ## Key Features
 Fine-tuned LLaMA 3.2-3B on 3,000 samples of Arabic medical QA data using parameter-efficient techniques.
 Evaluation through three approaches:
-Zero-Shot Learning: Quick, concise answers with limited contextual depth.
-Few-Shot Learning: Enhanced detail and informativeness, but occasionally diverging from the core question.
-Fine-Tuning: Delivered the most accurate and contextually relevant answers.
-Innovative evaluation metrics using GPT-4 for assessing accuracy, contextual understanding, and clarity, overcoming the limitations of traditional NLP metrics like BLEU and ROUGE.
-Dataset
+
+- Zero-Shot Learning: Quick, concise answers with limited contextual depth.
+- Few-Shot Learning: Enhanced detail and informativeness, but occasionally diverging from the core question.
+- Fine-Tuning: Delivered the most accurate and contextually relevant answers.
+- Innovative evaluation metrics using GPT-4 for assessing accuracy, contextual understanding, and clarity, overcoming the limitations of traditional NLP metrics like BLEU and ROUGE.
+## Dataset
 The Arabic Healthcare Dataset (AHD) comprises over 800,000 expert-annotated QA pairs spanning 90 categories. For this project, 3,000 rows were selected via stratified random sampling to ensure balanced representation across categories.
 
 ## Goals
